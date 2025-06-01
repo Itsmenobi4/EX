@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tentang Putri Aprilia Atsyah</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-pink-100 min-h-screen flex items-center justify-center">
+
+  <!-- Lock Screen -->
+  <div id="lockScreen" class="text-center bg-white p-8 rounded-2xl shadow-xl">
+    <h2 class="text-2xl font-bold mb-4">Masukkan Password</h2>
+    <input
+      type="password"
+      id="passwordInput"
+      placeholder="Password..."
+      class="border border-gray-300 px-4 py-2 rounded-lg w-full mb-4 focus:outline-none focus:ring-2 focus:ring-pink-300"
+    />
+    <button
+      onclick="checkPassword()"
+      class="bg-pink-500 hover:bg-pink-600 text-white font-semibold px-6 py-2 rounded-xl transition"
+    >
+      Masuk
+    </button>
+  </div>
+
+  <!-- Main Content -->
+  <div
+    id="mainContent"
+    class="hidden text-center max-w-lg bg-white p-10 rounded-2xl shadow-xl"
+  >
+    <h1 class="text-3xl font-bold mb-4 text-pink-600">Putri Aprilia Atsyah</h1>
+    <p class="italic text-gray-500 mb-6">
+      "Kalau waktu bisa diulang, mungkin gua bakal tetap milih kenal sama lu."
+    </p>
+    <a
+      href="cerita.html"
+      class="inline-block bg-pink-500 hover:bg-pink-600 text-white px-6 py-3 rounded-xl font-semibold transition"
+      >Lanjut ke Cerita</a
+    >
+    <a
+      href="galeri.html"
+      class="inline-block bg-pink-400 hover:bg-pink-500 text-white px-6 py-3 rounded-xl font-semibold transition ml-4"
+      >Lihat Galeri</a
+    >
+  </div>
+
+  <script src="js/login.js"></script>
+</body>
+</html>
